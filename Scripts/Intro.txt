@@ -1,0 +1,8 @@
+
+Based on Domain-Driven Design (DDD) principles, I developed a solution in C# using .NET Core and Entity Framework Core 
+to optimize database access and management. I implemented the generic repository pattern to encapsulate CRUD operations, 
+ensuring a clear separation between the domain and persistence layers. Business logic was centralized into domain services,
+ managed through dependency injection via the .NET Core service container. Additionally, I used GitHub Copilot to streamline 
+ development, benefiting from its ability to point out smart code snippets, reduce common errors, and facilitate the 
+ implementation of complex features, enabling faster and more efficient development.
+
