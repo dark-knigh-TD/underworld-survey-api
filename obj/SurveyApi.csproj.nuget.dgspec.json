@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/josetd/Documents/development/SurveyApi/SurveyApi/SurveyApi.csproj": {}
+    "/Users/josetd/Documents/desarrollo/underworldApi/underworld-survey-api/SurveyApi.csproj": {}
   },
   "projects": {
-    "/Users/josetd/Documents/development/SurveyApi/SurveyApi/SurveyApi.csproj": {
+    "/Users/josetd/Documents/desarrollo/underworldApi/underworld-survey-api/SurveyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josetd/Documents/development/SurveyApi/SurveyApi/SurveyApi.csproj",
+        "projectUniqueName": "/Users/josetd/Documents/desarrollo/underworldApi/underworld-survey-api/SurveyApi.csproj",
         "projectName": "SurveyApi",
-        "projectPath": "/Users/josetd/Documents/development/SurveyApi/SurveyApi/SurveyApi.csproj",
+        "projectPath": "/Users/josetd/Documents/desarrollo/underworldApi/underworld-survey-api/SurveyApi.csproj",
         "packagesPath": "/Users/josetd/.nuget/packages/",
-        "outputPath": "/Users/josetd/Documents/development/SurveyApi/SurveyApi/obj/",
+        "outputPath": "/Users/josetd/Documents/desarrollo/underworldApi/underworld-survey-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/josetd/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -47,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -84,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

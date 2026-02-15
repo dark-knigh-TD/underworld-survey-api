@@ -4,12 +4,24 @@ using SurveyApi.Model;
 using SurveyApi.Repositories;
 using SurveyApi.Services;
 using Microsoft.EntityFrameworkCore;
+using Azure.Security.KeyVault.Secrets;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+// Registrar SecretClient como servicio
+builder.Services.AddSingleton(x =>
+{
+    var keyVaultUrl = builder.Configuration["KeyVaultUrl"];
+    return new SecretClient(
+        new Uri(keyVaultUrl),
+        new DefaultAzureCredential());
+});
+ 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
