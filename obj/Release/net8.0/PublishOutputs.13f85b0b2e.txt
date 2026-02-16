@@ -1,6 +1,12 @@
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/SurveyApi
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/web.config
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/appsettings.Development.json
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/appsettings.json
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/appsettings.Development.json
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/appsettings.json
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/SurveyApi.deps.json
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/SurveyApi.runtimeconfig.json
+/Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/publish/SurveyApi.staticwebassets.endpoints.json
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/SurveyApi.dll
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/SurveyApi.deps.json
 /Users/josetd/Documents/development/SurveyApi/SurveyApi/publish/SurveyApi.runtimeconfig.json

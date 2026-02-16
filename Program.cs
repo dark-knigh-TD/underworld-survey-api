@@ -39,14 +39,18 @@ builder.Services.AddScoped<IServiceManageSurvey, ServiceManageSurvey>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+   app.UseSwagger();
+    app.UseSwaggerUI(c => {
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty; // Esto hace que Swagger salga en la raíz (sin /swagger)
+});
+//}
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles(); // <--- OBLIGATORIO para cargar los archivos de la UI
+app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();
